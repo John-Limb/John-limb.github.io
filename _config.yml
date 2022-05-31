@@ -21,7 +21,7 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Home Lab Docs site                          # the main title
+title: Limb-network doc site                         # the main title
 
 tagline: A Site for Homelab Documentation   # it will display as the sub-title
 

@@ -53,7 +53,8 @@ If we are using a single node we can create it using this PVC yaml file
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: Ansible-PVC
+  name: ansible-pvc
+  namespace: awx
 spec:
   accessModes:
     - ReadWriteOnce
@@ -82,6 +83,7 @@ apiVersion: awx.ansible.com/v1beta1
 kind: AWX
 metadata:
   name: awx
+  namespace: awx
 spec:
   service_type: nodeport
   projects_persistence: true
@@ -92,7 +94,7 @@ spec:
   extra_volumes: |
     - name: static-data
       persistentVolumeClaim:
-        claimName: Ansible-PVC
+        claimName: ansible-pvc
 ```
 For now, we are going to deploy the pod as a node port. We can always change this and put it behind an ingress in the future and apply TLS.  
   

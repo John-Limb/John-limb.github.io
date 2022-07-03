@@ -1,6 +1,6 @@
 ---
 title: Copying SSH ID on win 10 to Ubuntu (linux)
-date: 2022-05-30 10:00
+date: 2022-07-02 10:00
 categories: [homelab,kubernetes,k3s,ha,ssh,ubuntu]
 tags: [homelab,kubernetes,k3s,ha]
 ---

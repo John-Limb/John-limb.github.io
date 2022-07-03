@@ -27,4 +27,4 @@ Copy your new ID over to the the remote system.
 ```type $env:USERPROFILE\.ssh\id_rsa.pub | ssh {IP-ADDRESS-OR-FQDN} "cat >> .ssh/authorized_keys"```
 
 ## End
-You shoudl now be able to passwordless SSH into your remote machine without issue. 
+You should now be able to passwordless SSH into your remote machine without issue. 

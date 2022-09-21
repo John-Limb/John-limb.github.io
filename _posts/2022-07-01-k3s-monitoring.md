@@ -242,7 +242,7 @@ This should install the stack, there will will be no ingress yet, you will have 
 kubectl port-forward -n monitoring POD NAME HERE 52222:3000
 ```
 ### Setting up an ingress for grafana
-For a basic ingress route with a cert applied [see here for cert creation](https://docs.limb.network/posts/certs-in-k3s/)
+For a basic ingress route with a cert applied [see here for cert creation](https://docs.limb.network/posts/certs-in-k3s/)\
 Note, you may not have ingress class annotations depending on how you have your ingress setup.
 ```yaml
 apiVersion: traefik.containo.us/v1alpha1

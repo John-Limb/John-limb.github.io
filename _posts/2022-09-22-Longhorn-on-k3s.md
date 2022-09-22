@@ -33,7 +33,7 @@ sudo mkdir /mnt/longhorn
 Mount the volume with 
 ```shell
 sudo mount /dev/sdb /mnt/longhorn
-
+```
 You should then be able to test writing to the folder with a file. 
 ```shell
 sudo touch /mnt/longhorn/test.txt

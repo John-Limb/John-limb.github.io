@@ -11,7 +11,7 @@ tags: [homelab,kubernetes,k3s,ha,tls,ssl,cert,storage,longhorn,persistent]
 * Helm installed on your machine
 
 
-## Setting up
+## Setting upx
 
 Starting off by adding some separate volumes into the two worker nodes I have within my cluster.
 These will be two 100GB volumes for now but will be able to expand in the future if needs be.
@@ -55,8 +55,8 @@ lsblk
 ```
 You should see that your volume has mounted into the folder you created above. 
 
-## installing open ISCI 
-You will need to install open ISCI so longhorn can interact with storage on other nodes
+## installing open ISCSI 
+You will need to install open ISCSI so longhorn can interact with storage on other nodes
 ```shell
 sudo apt-get install open-iscsi
 ```

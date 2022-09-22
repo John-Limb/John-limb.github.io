@@ -106,3 +106,4 @@ spec:
       dnsNames:
       - "longhorn.int.domain.tld" #Add your DNS name here
 ```
+You should now have a dashboard at the DNS address you created erlier. 

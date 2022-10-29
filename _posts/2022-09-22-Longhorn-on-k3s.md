@@ -11,11 +11,9 @@ tags: [homelab,kubernetes,k3s,ha,tls,ssl,cert,storage,longhorn,persistent]
 * Helm installed on your machine
 
 
-## Setting upx
-
+## Setting up
 Starting off by adding some separate volumes into the two worker nodes I have within my cluster.
 These will be two 100GB volumes for now but will be able to expand in the future if needs be.
-
 ### Creating the volume
 Grab the disk ID, it will be something like /DEV/SDB etc. 
 ```shell

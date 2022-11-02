@@ -1,6 +1,6 @@
 ---
 title: Guacamole on kubetnetes
-date: 2022-09-22 10:00
+date: 2022-11-01 10:00
 categories: [homelab,kubernetes,k3s,ha,cert,tls,guacamole]
 tags: [homelab,kubernetes,k3s,ha,tls,ssl,cert,guacamole]
 ---

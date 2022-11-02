@@ -1,0 +1,26 @@
+---
+title: Guacamole on kubetnetes
+date: 2022-09-22 10:00
+categories: [homelab,kubernetes,k3s,ha,cert,tls,longhorn,storage,persistent]
+tags: [homelab,kubernetes,k3s,ha,tls,ssl,cert,storage,longhorn,persistent]
+---
+## Requirements
+* K3s cluster or stand alone node
+* Kubectl installed on your machine and configured to connect to your node / cluster
+* A public domain within cloudflare
+* Traekfik installed in your cluster
+* Reloader installed in your cluster
+
+## Set folder structure
+We want to split this out into two parts, Guacd and Guacamole. 
+Example Tree
+``` cmd
+└───Manifests
+    ├───Guacamole
+    └───guacd
+```
+## Installing guacd into the cluster
+
+To begin with we will install Guacd into the cluster as it's own set of pods. 
+
+```shell
